@@ -1,0 +1,159 @@
+// 默认主按钮样式
+.pramary-buttom {
+  width: 590px;
+  height: 94px;
+  box-shadow: 0px 6px 12px #dbc4fa;
+  border-radius: 48px;
+  background: linear-gradient(77deg, #5f72bd 0%, #9b23ea 100%);
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 94px;
+  color: #fff;
+}
+
+// 禁止按钮样式
+.forbidden-buttom {
+  width: 590px;
+  height: 94px;
+  background: rgba(205, 199, 199, 1);
+  box-shadow: 0px 6px 12px rgba(212, 212, 212, 1);
+  opacity: 1;
+  border-radius: 48px;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 94px;
+  color: #fff;
+}
+
+// 错误信息
+.err-info {
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 52px;
+  margin-top: 20px;
+  color: #eb6655;
+}
+
+.placeholder {
+  color: #d8d8d8;
+}
+
+// 信息填写页公共样式
+.info-block {
+  margin-top: 80px;
+  margin-bottom: 10px;
+  font-weight: 400;
+  color: #353535;
+
+  &:first-child {
+    margin-top: 40px;
+  }
+
+  .title-line {
+    display: flex;
+    align-items: center;
+
+    .icon {
+      width: 20px;
+      height: 40px;
+      background: linear-gradient(
+        124deg,
+        rgba(151, 85, 233, 1) 0%,
+        rgba(94, 136, 250, 1) 100%
+      );
+      opacity: 1;
+      border-radius: 10px;
+      margin-right: 16px;
+    }
+
+    .icon-err {
+      width: 20px;
+      height: 40px;
+      background: linear-gradient(
+        138deg,
+        rgba(232, 76, 61, 1) 0%,
+        rgba(243, 137, 55, 1) 100%
+      );
+      opacity: 1;
+      border-radius: 10px;
+      margin-right: 16px;
+    }
+
+    .title {
+      font-size: 48px;
+    }
+
+    .add-box {
+      flex: 1;
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+
+      .add-ic {
+        width: 40px;
+        height: 40px;
+      }
+    }
+  }
+
+  .err-txt {
+    font-size: 34px;
+    line-height: 58px;
+    color: #353535;
+    margin-top: 40px;
+  }
+
+  .item {
+    font-size: 30px;
+
+    .label {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 50px 0 30px;
+
+      .txt {
+        color: #d8d8d8;
+      }
+    }
+
+    .input {
+      padding-bottom: 10px;
+      border-bottom: 1px solid #d8d8d8;
+    }
+
+    .picker {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 1px solid #d8d8d8;
+      padding-bottom: 10px;
+
+      .tri-ic {
+        width: 28px;
+        height: 16px;
+      }
+
+      .tri-up {
+        -webkit-transform: rotate(180deg);
+        -moz-transform: rotate(180deg);
+        -o-transform: rotate(180deg);
+        -ms-transform: rotate(180deg);
+        transform: rotate(180deg);
+      }
+    }
+
+    .radio {
+      margin-left: 160px;
+
+      &:first-child {
+        margin-left: 0;
+      }
+    }
+  }
+}
+
+.pic-add {
+  width: 100px;
+  height: 100px;
+}

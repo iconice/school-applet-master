@@ -1,0 +1,97 @@
+{
+  "miniprogramRoot": "dist/",
+  "projectname": "school-applet",
+  "description": "入学信息采集家长端",
+  "appid": "wx2b7186053a113fa3",
+  "setting": {
+    "urlCheck": true,
+    "es6": false,
+    "postcss": false,
+    "minified": false,
+    "newFeature": true,
+    "coverView": true,
+    "autoAudits": false,
+    "showShadowRootInWxmlPanel": true,
+    "scopeDataCheck": false,
+    "checkInvalidKey": true,
+    "checkSiteMap": true,
+    "uploadWithSourceMap": true,
+    "babelSetting": {
+      "ignore": [],
+      "disablePlugins": [],
+      "outputPath": ""
+    }
+  },
+  "compileType": "miniprogram",
+  "simulatorType": "wechat",
+  "simulatorPluginLibVersion": {},
+  "condition": {
+    "miniprogram": {
+      "current": 1,
+      "list": [
+        {
+          "id": 0,
+          "name": "登陆",
+          "pathName": "pages/login/index",
+          "scene": null
+        },
+        {
+          "id": 0,
+          "name": "注册",
+          "pathName": "pages/register/index",
+          "query": "isForgot=false",
+          "scene": null
+        },
+        {
+          "id": 1,
+          "name": "选择学校",
+          "pathName": "pages/choose-school/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": 2,
+          "name": "修改密码",
+          "pathName": "pages/change-password/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": 3,
+          "name": "进度条",
+          "pathName": "pages/timeline/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": 4,
+          "name": "家长信息",
+          "pathName": "pages/parents-info/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": 5,
+          "name": "接种疫苗信息",
+          "pathName": "pages/viccine-info/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": 4,
+          "name": "转学儿童信息",
+          "pathName": "pages/transfer-info/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": 5,
+          "name": "房产信息",
+          "pathName": "pages/house-info/index",
+          "query": "",
+          "scene": null
+        }
+      ]
+    }
+  }
+}
